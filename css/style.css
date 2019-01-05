@@ -7,9 +7,9 @@
 }
 
 @font-face {
-    font-family: 'open_sansitalic';
-    src: url('fonts/opensans-italic-webfont.woff2') format('woff2'),
-    url('fonts/opensans-italic-webfont.woff') format('woff');
+    font-family: 'open_sanslight_italic';
+    src: url('fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+    url('fonts/opensans-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -17,6 +17,7 @@
 
 body {
     background-image: url('../img/sm_index_bkg.jpg');
+    background-repeat: repeat-x;
 }
 
 .sm-social-img {
@@ -37,7 +38,11 @@ body {
     text-align: center;
     margin-top: 10px;
     font-size: 30px;
-    font-family: 'open_sansitalic';
+    font-family: 'open_sanslight_italic';
+}
+
+.sm-index-container {
+    margin-top: 20px;
 }
 
 .sm-index-container ul li {
@@ -46,12 +51,21 @@ body {
 
 .sm-sally-molly {
     width: 200px;
+    margin-left: -180px;
 
 }
 
 .sm-img-container {
     text-align: center;
 }
+
+
+@media(min-width:575.98px) and (max-width:1000px) {
+    .sm-sally-molly {
+        margin-left: 0px;
+    }
+}
+
 
 @media (max-width: 575.98px) {
     .sm-title {
@@ -61,7 +75,10 @@ body {
     .sm-sally-molly {
         position: static;
         width: 30%;
-
+        margin-left: 0px;
     }
 
+    .sm-img-container {
+        text-align: center;
+    }
 }
