@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('fonts/pacifico-regular.woff2') format('woff2'),
+    url('fonts/pacifico-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('fonts/opensans-italic-webfont.woff2') format('woff2'),
+    url('fonts/opensans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image: url('../img/sm_index_bkg.jpg');
+}
+
+.sm-social-img {
+    margin-top: 20px;
+    width: 50px;
+}
+
+.sm-title {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'pacificoregular';
+    color: #556273;
+    text-shadow: -5px 5px #DDF0D1;
+    font-size: 150px;
+}
+
+.sm-index-txt {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'open_sansitalic';
+}
+
+.sm-index-container ul li {
+    display: inline-block;
+}
+
+.sm-sally-molly {
+    width: 200px;
+
+}
+
+.sm-img-container {
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    .sm-title {
+        font-size: 70px;
+    }
+
+    .sm-sally-molly {
+        position: static;
+        width: 30%;
+
+    }
+
+}
