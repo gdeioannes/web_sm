@@ -68,17 +68,29 @@ body {
 
 
 @media (max-width: 575.98px) {
+
     .sm-title {
-        font-size: 70px;
+        font-size: 60px;
+        margin: 0px;
     }
 
     .sm-sally-molly {
         position: static;
-        width: 30%;
+        width: 120px;
         margin-left: 0px;
     }
 
     .sm-img-container {
         text-align: center;
+    }
+
+    .sm-index-txt {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .sm-social-img {
+        margin-top: 10px;
+        width: 40px;
     }
 }
